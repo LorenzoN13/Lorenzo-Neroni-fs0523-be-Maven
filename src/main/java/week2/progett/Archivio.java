@@ -42,7 +42,6 @@ public class Archivio  implements Serializable{
         }
     }
 
-    @SuppressWarnings("unchecked")
     public List<Libro> caricamentoDaDisco(String filePath) throws IOException, ClassNotFoundException {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(filePath))) {
             return (List<Libro>) ois.readObject();
