@@ -1,4 +1,15 @@
-
-Prima riga file
-
-prima riga file
+[
+Libro{CodiceISBN='236345634', Titolo='La ragazza di Teheran', Anno Pubblicazione=1984, NumeroPagine=1020, Autore='Fabio Volo', Genere='Fantasy'}
+, 
+Libro{CodiceISBN='623512542', Titolo='I bambini del treno', Anno Pubblicazione=1994, NumeroPagine=1060, Autore='Marco Travaglio', Genere='Fantasy'}
+, 
+Libro{CodiceISBN='367562365', Titolo='Treno Locale: Un avvincente giallo britannico', Anno Pubblicazione=1934, NumeroPagine=1070, Autore='Donato Carrisi', Genere='Fantasy'}
+, 
+Libro{CodiceISBN='835676134', Titolo='Gli aghi d’oro', Anno Pubblicazione=1924, NumeroPagine=990, Autore='Antonio Scurati', Genere='Fantasy'}
+, 
+Libro{CodiceISBN='164563414', Titolo='Le otto montagne', Anno Pubblicazione=1954, NumeroPagine=908, Autore=' Fox Offerte', Genere='Fantasy'}
+, 
+Libro{CodiceISBN='754264351', Titolo='Le persone sensibili hanno una marcia in più', Anno Pubblicazione=1964, NumeroPagine=876, Autore='Jack Benton e Cristiana Francone', Genere='Fantasy'}
+, 
+Libro{CodiceISBN='617351234', Titolo='L'educazione delle farfalle', Anno Pubblicazione=1978, NumeroPagine=787, Autore='Ilaria Tuti', Genere='Fantasy'}
+]

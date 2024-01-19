@@ -14,7 +14,7 @@ public class Esercizio3 {
         prodotti.add(new Product(2L, "Toy1", "Toys", 25.0));
         prodotti.add(new Product(3L, "Book2", "Books", 90.0));
         prodotti.add(new Product(4L, "Laptop", "Electronics", 1500.0));
-        prodotti.add(new Product(5L, "Smartphone", "Electronics", 800.0));
+        prodotti.add(new Product(5L, "Smartphone", "Electronics", 1500.0));
 
 
         Optional<Product> prodottoPiuCostoso= prodotti.stream().max(Comparator.comparingDouble(Product::getPrice));
@@ -22,4 +22,7 @@ public class Esercizio3 {
         prodottoPiuCostoso.ifPresent(product -> System.out.println("Prodotto più costoso: " + product.getName() + ", Categoria: " + product.getCategory() + ", Prezzo: " +
                 product.getPrice()));
     }
+
+
+    
 }
