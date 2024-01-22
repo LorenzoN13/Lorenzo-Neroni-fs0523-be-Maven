@@ -1,0 +1,6 @@
+SELECT * FROM clienti WHERE nome = 'Mario';
+SELECT nome, cognome FROM clienti WHERE anno_di_nascita = 1982;
+SELECT COUNT(*) FROM fatture WHERE iva=20;
+SELECT * FROM prodotti WHERE (data_attivazione BETWEEN '2017-01-01' AND '2017-12-31') AND (in_produzione = true OR in_commercio = false);
+SELECT * FROM fatture WHERE importo < 1000 JOIN clienti ON id_cliente = numero_cliente;
+SELECT numero_fattura, importo, iva, denominazione data FROM fatture JOIN fornitori USING;

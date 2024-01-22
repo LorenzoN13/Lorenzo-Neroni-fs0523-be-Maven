@@ -4,7 +4,6 @@ import java.io.Serializable;
 
 public class Libro extends Elemento  implements Serializable{
     private static final long serialVersionUID = -3035658830276022369L; // Aggiorna con il valore corretto
-
     private String autore;
     private String genere;
 
